@@ -1,0 +1,36 @@
+/* GENERAL STYLES - BACKGROUND & HEADER */
+.backgroundContainer,
+.skinHeader {
+    background-color: rgba(var(--color-bg), 1);
+}
+
+/* GENERAL STYLES - ROUNDED CORNERS */
+.cardContent,
+.cardImage,
+.cardImageContainer,
+.cardPadder,
+.innerCardFooter,
+.visualCardBox,
+.blurhash-canvas,
+.listItemImage,
+.dialog {
+    border-radius: $border-radius !important;
+}
+
+/* GENERAL STYLES - LINKS - HOMEPAGE */
+.textActionButton,
+.button-link,
+.overview-expand {
+    &:hover {
+        color: rgba(var(--color-primary), 1) !important;
+        text-decoration: none;
+    }
+}
+
+/* HIDE THINGS */
+.btnPlayTrailer,
+.btnShuffle,
+#seriesAirTime,
+.itemExternalLinks {
+    display: none;
+}

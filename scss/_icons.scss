@@ -1,0 +1,67 @@
+/* GENERAL STYLES - ICONS */
+.paper-icon-button-light {
+    &:hover,
+    &:active {
+        &:not(:disabled) {
+            color: rgba(var(--color-primary), 1);
+            background-color: transparent;
+        }
+    }
+}
+
+/* GENERAL STYLES - ICONS -- PLAY */
+.cardOverlayFab-primary {
+    border-radius: $border-radius;
+
+    &:hover {
+        transform: none;
+    }
+
+    &.paper-icon-button-light {
+        &:hover,
+        &:active {
+            &:not(:disabled) {
+                background-color: rgba(var(--color-primary), .7);
+                color: white;
+            }
+        }
+    }
+}
+
+.layout-desktop {
+    .listItem {
+        .listItem-content {
+            .listItemImage {
+                cursor: pointer;
+            }
+
+            .listItemImageButton {
+                background: rgba(var(--color-bg), .7);
+                border-radius: $border-radius;
+                color: #fff;
+                font-size: 1.1em;
+
+                &:hover {
+                    transform: none;
+                    background-color: rgba(var(--color-primary), .7);
+                }
+            }
+        }
+    }
+}
+
+.dialog {
+    .btnBrowseAllImages,
+    .btnOpenUploadMenu {
+        background: rgba(var(--color-bg), 1);
+
+        &:hover {
+            color: rgba(var(--color-primary), 1);
+        }
+
+        .search,
+        .add {
+            font-size: 1.5em;
+        }
+    }
+}

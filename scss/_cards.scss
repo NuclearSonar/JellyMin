@@ -1,0 +1,81 @@
+.card {
+    /* CARDS - PROGRESSBAR */
+    .itemProgressBar {
+        background: transparent;
+    }
+
+    /* CARDS - LINKS */
+    .textActionButton:hover {
+        color: rgba(var(--color-primary), 1);
+        text-decoration: none;
+    }
+
+    /* GENERAL STYLES - CARD INDICATOR */
+    .cardIndicators {
+        right: 0;
+        top: 0;
+
+        .countIndicator,
+        .playedIndicator {
+            border-radius: 0px $border-radius !important;
+            box-shadow: -1px 1px 4px 0 rgba(var(--color-bg), .3);
+        }
+
+        .countIndicator {
+            background: rgba(var(--color-primary), .8);
+            height: 2.1em;
+            width: 2.1em;
+        }
+    
+        .playedIndicator {
+            background: rgba(var(--color-bg), .8);
+            height: 2.31em;
+            width: 2.31em;
+        }
+    }
+}
+
+.layout-desktop {
+    .listItem {
+        .listItem-content {
+            height: 175px;
+
+            .listItemImage {
+                height: 160px;
+            }
+
+            .listItem-overview {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+        }
+    }
+}
+
+.listItem {
+    .listItem-content {
+        .indicators {
+            right: 0;
+            top: 0;
+        
+            .countIndicator,
+            .playedIndicator {
+                border-radius: 0px $border-radius !important;
+                box-shadow: -1px 1px 4px 0 rgba(var(--color-bg), .3);
+            }
+        
+            .countIndicator {
+                background: rgba(var(--color-primary), .8);
+                height: 2.1em;
+                width: 2.1em;
+            }
+        
+            .playedIndicator {
+                background: rgba(var(--color-bg), .8);
+                height: 2.31em;
+                width: 2.31em;
+            }
+        }
+    }
+}

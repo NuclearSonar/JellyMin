@@ -1,0 +1,16 @@
+.raised {
+    background-color: $button;
+
+    &:hover {
+        background: adjust-color($color: $button, $lightness: 10%);
+    }
+}
+
+.raised.btnBrowse,
+.raised.btnCancel {
+    background-color: $button-dark;
+
+    &:hover {
+        background: adjust-color($color: $button-dark, $lightness: 10%);
+    }
+}

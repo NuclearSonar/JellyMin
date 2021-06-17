@@ -1,0 +1,17 @@
+$background: 16, 16, 16;
+$primary: 0, 164, 220;
+
+$colors: (
+    "bg": $background,
+    "primary": $primary,
+);
+
+$border-radius-sm: 4px;
+$border-radius: 8px;
+$border-radius-xl: 12px;
+
+$link: rgba(white, .8);
+$link-hover: $primary;
+
+$button: #00A4DC;
+$button-dark: #4a4a4a;;
