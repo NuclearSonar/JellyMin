@@ -7,5 +7,5 @@ Note that I maintain this theme to be compatible with whatever version of Jellyf
 To use the theme copy paste the line below into "Dashboard > General > Custom CSS" and click save, it will apply immediately server-wide to all users on top of any theme they may be using. To remove the theme, clear the "Custom CSS" field and then click save.
 
 ```css
-@import url('https://nuclearsonar.github.io/JellyMin/jellymin.css');
+@import url('https://nuclearsonar.github.io/JellyMin/jellymin.min.css');
 ```
